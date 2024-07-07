@@ -1,0 +1,60 @@
+body {
+    margin: 20px;
+    margin-top:50px ;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+.name{
+    font-size: 20px;
+}
+
+.profession{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.content-highlight:hover{
+    text-shadow: 2px 2px red;
+}
+
+.avatar {
+    width: 130px;
+    height: 12rem;
+    margin: 0 auto;
+    border-radius: 40px;
+    border: 2px solid #f8f9fa;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #023047;
+    color: #f8f9fa;
+    border-bottom: 6px solid #d8cefe;
+}
+
+.card:hover{
+    box-shadow: 5px 5px black;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.icon{
+    width: 35px;
+    margin:0 30px ;
+    background-color: #f8f9fa;
+}
+
+.icon:hover{
+    box-shadow: 2px 2px lightblue;
+}
+
